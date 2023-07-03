@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
+
+body {
+    background-color: rgb(160, 160, 210);
+    background-image: url(odin-recipes-bg.png);
+}
+
+h1 {
+    font-family: 'Volkhov', serif;
+    font-size: 56px;
+}
+
+div {
+    background-color: rgba(256, 256, 256, 0.8);
+    width: 1000px;
+}
