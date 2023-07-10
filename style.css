@@ -4,22 +4,36 @@
 
 body {
     background-color: rgb(241, 238, 225);
-    background-size: 30px 30px;
+    background-size: 90px 90px, 30px 30px, 30px 30px;
     background-image:
-        linear-gradient(rgba(75, 70, 121, 0.4) 2px, transparent 2px),
-        linear-gradient(90deg, rgba(75, 70, 121, 0.4) 2px, transparent 2px);
+        url(red-line.png),
+        linear-gradient(rgba(75, 70, 121, 0.2) 2px, transparent 2px),
+        linear-gradient(90deg, rgba(75, 70, 121, 0.2) 2px, transparent 2px),
+        linear-gradient(90deg, rgba(110, 83, 60, 0.2) 1em, transparent);
+    background-position-x: right, left, left, left;
+    background-repeat: repeat-y, repeat, repeat, repeat-y;
 }
 
 
 div {
     background-color: rgba(256, 256, 256, 0.8);
-    width: 1000px;
+    background-color: transparent;
+    width: fit-content;
+    max-width: 1000px;
     font-family: 'Klee One', cursive;
     font-size: 20px;
+    font-weight: 600;
+    color: rgb(18, 25, 85);
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 50px;
+    border-left: double;
+    border-left-width: 15px;
+    border-left-color: rgb(11, 88, 40);
+    border-right: double;
+    border-right-width: 15px;
+    border-right-color: rgb(11, 88, 40);
 }
 
 
@@ -34,17 +48,22 @@ h1 {
     font-family: 'Courgette', cursive;
     font-size: 56px;
     text-align: center;
+    text-decoration-line: underline;
+    color: rgb(33, 41, 119);
 }
 
 
 h2,
 h3 {
     font-family: 'Klee One', cursive;
+    text-decoration-line: underline;
+    color: rgb(18, 25, 85);
 }
 
 
 h2 {
     text-align: center;
+    color: rgb(18, 25, 85);
 }
 
 
